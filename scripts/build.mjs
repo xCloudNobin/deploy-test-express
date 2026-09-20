@@ -1,3 +1,2 @@
-// xCloud retry test, step 1: a build that is broken on purpose.
-console.error('BUILD BROKEN ON PURPOSE (xcloud provision-retry test): fix scripts/build.mjs and push.');
-process.exit(1);
+// xCloud retry test, step 2: the fix. A build that succeeds.
+console.log('build ok (fixed after the first failed deploy)');
