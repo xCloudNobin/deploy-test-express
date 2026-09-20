@@ -1,2 +1,3 @@
-// xCloud QA round 2 (final video): the fix. A build that succeeds.
-console.log('build ok (fixed after the failed deploy)');
+// xCloud QA round 2 (final): a build that is broken on purpose.
+console.error('BUILD BROKEN ON PURPOSE (xcloud QA round 2): fix scripts/build.mjs and push.');
+process.exit(1);
