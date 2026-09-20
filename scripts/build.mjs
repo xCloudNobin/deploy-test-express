@@ -1,3 +1,2 @@
-// xCloud QA (dashboard modal): a build that is broken on purpose.
-console.error('BUILD BROKEN ON PURPOSE (xcloud QA): fix scripts/build.mjs and push.');
-process.exit(1);
+// xCloud QA (dashboard modal): the fix. A build that succeeds.
+console.log('build ok (fixed after the failed deploy)');
