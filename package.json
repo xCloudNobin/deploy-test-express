@@ -10,7 +10,8 @@
     "start": "node server.js",
     "dev": "node --watch server.js",
     "test": "node --test",
-    "smoke": "node scripts/smoke.mjs"
+    "smoke": "node scripts/smoke.mjs",
+    "build": "node scripts/build.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",
