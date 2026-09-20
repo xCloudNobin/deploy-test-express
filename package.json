@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "start": "node server.js",
-    "test": "node --test"
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "smoke": "node scripts/smoke.mjs"
   },
   "dependencies": {
+    "better-sqlite3": "^13.0.3",
     "express": "^5.1.0"
   }
 }
